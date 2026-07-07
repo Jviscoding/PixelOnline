@@ -26,7 +26,7 @@ import { TextHandler } from "../Text Handler/textHandler.js";
 
 import { CharacterDeathHandler } from "../CharacterDeathHandler/characterDeathHandler.js";
 
-import { LeaderBoardHandler } from "../LeaderBoardHandler/LeaderBoardHandler.js";
+import { LeaderBoardHandler } from "../LeaderBoardHandler/leaderBoardHandler.js";
 
 import { ClientScoreHandler } from "../ClientScoreHandler/clientScoreHandler.js";
 import { GlobalVariables } from "../GLOBAL_VAR/globalVariable.js";
