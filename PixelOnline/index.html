@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phaser Game</title>
+    <link rel="stylesheet" type="text/css" href="Styles/style.css">
+</head>
+
+<body>
+
+
+    <div id="phaser-game" class="mainContainer">
+
+        <div class="lobbyBackgroundImg"></div>
+        <!-- main oart -->
+
+        <!-- container of all userinput at lobby -->
+        <div class="userInputContainer">
+
+
+            <!-- setting up username for the player -->
+            <div class="usernameSet">
+
+                <h1 class="gameTitle">PIXEL CLASH</h1>
+
+                <input minlength="6" , max="10" class="setUsername" type="text" required
+                    placeholder="Set Your Username:">
+                <button class="setButton">SET</button>
+                <h1 class="setUsernameNotif"></h1>
+                <!-- Username should be more than 5 char -->
+
+            </div>
+
+
+            <!-- choosing to create / join -->
+            <div class="userCreateJoinRoom">
+
+                <button class="joinRoom">JOIN ROOM</button>
+                <button class="createRoom">CREATE ROOM</button>
+                <button class="goBackUsernameInput">GO BACK</button>
+
+            </div>
+
+            <!-- joining a room -->
+            <div class="joinRoomWindow">
+                <input class="setRoomName" type="text" placeholder="Room name:">
+                <button class="startjoinRoom">JOIN ROOM</button>
+                <button class="joinGoBack">GO BACK</button>
+                <h1 class="joinRoomNotif"></h1>
+
+            </div>
+
+
+            <!-- creating a room -->
+            <div class="createRoomWindow">
+                <input class="setRoomCreation" type="text" placeholder="Room name:">
+                <button class="startRoomCreation">CREATE ROOM</button>
+                <button class="creationGoBack">GO BACK</button>
+                <h1 class="createRoomNotif"></h1>
+
+            </div>
+
+
+
+            <div class="">
+
+            </div>
+        </div>
+
+        <div class="loaderBackground" inert>
+
+            <div class="loadingContent">
+
+                <div class="loaderContainer">
+
+                    <div class="outerLoader"></div>
+                    <div class="innerLoader"></div>
+
+                </div>
+                <div class="loaderMessage">
+                    <h4 class="loadingTextMessage"></h4>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="sampleValue" style="width: 200px; height: 200px; background-color: red;z-index: 200;"> -->
+
+    </div>
+
+    <div class="sample"></div>
+
+    </div>
+
+
+
+
+</body>
+
+<script src="Photon Backened/photon.min.js"></script>
+<script src="Phaser Backened/phaser.js"></script> <!-- Link to the downloaded Phaser.js file -->
+<script src="Main/Main Runner/mainHandler.js" type="module"></script>
+
+</html>
